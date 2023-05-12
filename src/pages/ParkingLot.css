@@ -1,0 +1,123 @@
+/* .available {
+    color: green;
+  }
+  
+  .occupied {
+    color: red;
+  }
+  .parking-space-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .space {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .space {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: rgb(170, 194, 35);
+  }
+  
+  .occupied {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .parking-lot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.parking-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-right: 10px;
+}
+
+.available {
+  background-color: green;
+}
+
+.occupied {
+  background-color: red;
+} */
+
+/* .parking-lot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 400px;
+} */
+
+.parking-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ccc;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.available {
+  background-color: green;
+}
+
+.occupied {
+  background-color: red;
+}
+
+.parking-space:hover {
+  background-color: yellow;
+}
+
+.parking-space:active {
+  background-color: orange;
+}
+
+.parking-space[title]:hover:after {
+  content: attr(title);
+  display: block
+}
+.parking-lot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}

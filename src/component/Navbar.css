@@ -1,0 +1,10 @@
+.Navbar {
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+
+.Navbar .nav-link:hover {
+    color: rgb(24, 3, 100);
+  }
+  
