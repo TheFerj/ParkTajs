@@ -1,0 +1,14 @@
+.col{
+    height: 150px;
+}
+
+.container{
+    width:  max-content;
+}
+div.picture1 {
+    width:100px; /*width of your image*/
+    height:100px; /*height of your image*/
+    background-image:url('C:\Users\DELL user\Desktop\SE STUFF\ParkTajs\src\assets\car.png');
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
