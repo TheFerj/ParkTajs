@@ -7,8 +7,8 @@ function ParkingSpots() {
     <div className="container">
       <Link to="/ParkingLotSample">
         <div className="card">
-          <h2>Card 1</h2>
-          <p>Card1</p>
+          <h2>Mcdonalds CPU</h2>
+          <p></p>
         </div>
       </Link>
       <Link to="/card2">
